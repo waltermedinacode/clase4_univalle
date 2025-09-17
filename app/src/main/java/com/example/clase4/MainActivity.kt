@@ -24,10 +24,6 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this,ConstraintLayout::class.java))
         }
 
-        binding.btnTable.setOnClickListener {
-            startActivity(Intent(this,TableLayout::class.java))
-        }
-
         binding.btnGrid.setOnClickListener {
             startActivity(Intent(this,GridLayout::class.java))
         }

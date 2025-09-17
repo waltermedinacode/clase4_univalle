@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">clase4</string>
+    <string name="edittext">EditText:</string>
 </resources>

@@ -9,6 +9,7 @@
     tools:context=".GridLayout">
 
     <View
+        android:id="@+id/btn1"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:background="@color/black"
@@ -65,9 +66,9 @@
         android:layout_width="100dp"
         android:layout_height="200dp"
         android:tag="botonVerde"
+        android:layout_column="3"
         android:layout_row="1"
         android:layout_rowSpan="2"
-        android:layout_column="3"
         android:background="@color/verde"
         android:onClick="onGridItemClick" />
 
