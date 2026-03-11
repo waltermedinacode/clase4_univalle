@@ -16,9 +16,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun controller(){
-        binding.btnRelative.setOnClickListener {
-            startActivity(Intent(this,RelativeLayout::class.java))
-        }
 
         binding.btnConstraint.setOnClickListener {
             startActivity(Intent(this,ConstraintLayout::class.java))
