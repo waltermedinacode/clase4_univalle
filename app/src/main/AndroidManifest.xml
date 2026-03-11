@@ -16,13 +16,7 @@
             android:name=".GridLayout"
             android:exported="false" />
         <activity
-            android:name=".TableLayout"
-            android:exported="false" />
-        <activity
             android:name=".ConstraintLayout"
-            android:exported="false" />
-        <activity
-            android:name=".RelativeLayout"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
